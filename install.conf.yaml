@@ -1,0 +1,17 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.zprofile:
+      path: zprofile
+    ~/.zshrc:
+      path: zshrc
+    ~/.config/kitty/:
+      glob: true
+      path: kitty/**
+
+
