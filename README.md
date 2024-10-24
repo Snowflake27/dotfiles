@@ -14,3 +14,10 @@ Optionals
 You can supply an image for `fastfetch` in `~/.local/fastfetch/image.png`.
 
 
+Dotbot
+------
+This repo uses dotbot to handle the linking of dotfiles.
+
+Check out dotbot here:
+- dotbot: https://github.com/anishathalye/dotbot
+- init script: https://github.com/Vaelatern/init-dotfiles
