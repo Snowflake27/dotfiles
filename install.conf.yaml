@@ -16,3 +16,6 @@
     ~/.config/fastfetch/:
       glob: true
       path: fastfetch/**
+    ~/.config/nvim:
+      glob: true
+      path: nvim/**
