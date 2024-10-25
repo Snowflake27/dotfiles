@@ -70,18 +70,22 @@ zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git git-prompt)
 
 # Comfyline setup
-BAT_RANK=0
 RETVAL_RANK=0
 HOST_RANK=0
+USER_RANK=1
+DIR_RANK=2
+GIT_RANK=3
+VENV_RANK=4
 
-# RETVAL_b="#3C4841" # Green BG
-# RETVAL_f="#A7C080" # Green FG
-
+BAT_RANK=0
+DATE_RANK=-1
 HOST_b="#453737"
 HOST_f="#e67e80"
+TIME_RANK=-2
+
 DIR_b="#374C3C"
 DIR_f="#83C092"
 USER_b="#45443C"
@@ -97,9 +101,6 @@ TIME_b="#45443C"
 TIME_f="#DBBC7F"
 DATE_b="#374C3C"
 DATE_f="#83C092"
-
-# DIR_b="#4C3737"
-# DIR_f="#E67E80"
 
 zstyle ':omz:alpha:lib:git' async-prompt no
 
