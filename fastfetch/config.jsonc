@@ -106,8 +106,8 @@
             "keyColor": "blue"
 		},
 		{
-            "type": "uptime",
-			"key": "   Uptime   ",
+            "type": "netio",
+			"key": "   Network  ",
             "keyColor": "blue"
 		},
 		{
